@@ -13,6 +13,7 @@
 #macro Of				wx_of
 #macro From				wx_from
 #macro Merge			wx_merge
+#macro FromEvent		wx_fromevent
 
 // Pipeable operators
 #macro Tap				wx_tap

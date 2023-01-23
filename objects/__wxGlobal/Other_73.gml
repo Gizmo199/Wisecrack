@@ -1,0 +1,1 @@
+WX_LISTENERS[$ WX_GLOBAL].async_audio_record.call();

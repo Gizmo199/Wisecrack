@@ -1,0 +1,1 @@
+WX_LISTENERS[$ WX_GLOBAL].room_end.call();
