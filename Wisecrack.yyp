@@ -52,6 +52,7 @@
     {"id":{"name":"wx_observer","path":"scripts/wx_observer/wx_observer.yy",},"order":1,},
     {"id":{"name":"obj_example_debounce","path":"objects/obj_example_debounce/obj_example_debounce.yy",},"order":12,},
     {"id":{"name":"__wxObservable","path":"scripts/__wxObservable/__wxObservable.yy",},"order":0,},
+    {"id":{"name":"obj_example_trace","path":"objects/obj_example_trace/obj_example_trace.yy",},"order":3,},
     {"id":{"name":"wx_subject","path":"scripts/wx_subject/wx_subject.yy",},"order":4,},
     {"id":{"name":"wx_debounce","path":"scripts/wx_debounce/wx_debounce.yy",},"order":11,},
     {"id":{"name":"obj_example_map","path":"objects/obj_example_map/obj_example_map.yy",},"order":1,},
