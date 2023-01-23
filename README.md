@@ -10,7 +10,7 @@ Inspired by reactive libraries such as [RxJS](https://github.com/ReactiveX/rxjs)
 - `Observers`, `Observables`, and `Subjects`
 
 ## Operators
-these operators follow the naming conventions of standard reactive libraries, with `wx_*` added before each operator. You can enable short hands in the `__wxStenograph` script which allows for CamelCased shorthand operator names. 
+Operators in Wisecrack follow the same naming conventions of standard reactive libraries, with `wx_*` added before each operator. You can enable short hands in the `__wxStenograph` script which allows for CamelCased shorthand operator names. 
 
 - Static operators (more to come)
   - of
