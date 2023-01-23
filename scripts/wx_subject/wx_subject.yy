@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "wx_subscriber",
+  "name": "wx_subject",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

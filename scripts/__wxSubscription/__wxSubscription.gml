@@ -1,14 +1,22 @@
 function __wxSubscription(obx) constructor {
 	
 	observable = obx;
+	subscriber = undefined;
 	tracer = obx.tracer;
 	teardowns = [];
 	
 	static add = function(td_func){
 		array_push(teardowns, td_func);	
 	}
+	static clear = function(){
+		teardowns = [];	
+	}
 	static unsubscribe = function(){
 		///@func unsubscribe()
+		
+		if ( subscriber != undefined ){
+			observable.remove(subscriber);	
+		}
 		
 		var i = 0;
 		if ( tracer.enabled && WX_VERBOSE ) tracer.teardown();

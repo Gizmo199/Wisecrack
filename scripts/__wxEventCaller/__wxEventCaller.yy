@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Event Handlers",
-    "path": "folders/Wisecrack/Core/Private/Event Handlers.yy",
+    "name": "Event Handling",
+    "path": "folders/Wisecrack/Core/Private/Event Handling.yy",
   },
 }

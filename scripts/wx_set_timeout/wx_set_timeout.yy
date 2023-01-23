@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "wx_subscription",
+  "name": "wx_set_timeout",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Classes",
-    "path": "folders/Wisecrack/Classes.yy",
+    "name": "Functions",
+    "path": "folders/Wisecrack/Functions.yy",
   },
 }

@@ -2,16 +2,16 @@
 /* 
 
 // Classes
-#macro Observer			wx_observer
 #macro Observable		wx_observable
-#macro Subscriber		wx_subscriber
-#macro Subscription		wx_subscription
+#macro Observer			wx_observer
+#macro Subject			wx_subject
 
 // Static operators
-#macro Interval			wx_interval
-#macro Timer			wx_timer
 #macro Of				wx_of
 #macro From				wx_from
+#macro Generate			wx_generate
+#macro Timer			wx_timer
+#macro Interval			wx_interval
 #macro Merge			wx_merge
 #macro FromEvent		wx_fromevent
 
@@ -23,6 +23,7 @@
 #macro Pluck			wx_pluck
 #macro Filter			wx_filter
 #macro Take				wx_take
+#macro TakeWhile		wx_takewhile
 #macro Reduce			wx_reduce
 #macro Scan				wx_scan
 #macro Delay			wx_delay
@@ -32,4 +33,9 @@
 #macro MergeMap			wx_mergemap
 #macro ConcatMap		wx_concatmap
 #macro TakeUntil		wx_takeuntil
+
+// Functions
+#macro EventFire		wx_event_fire
+#macro SetTimeout		wx_set_timeout
+
 */

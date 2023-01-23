@@ -1,4 +1,4 @@
-#macro WX_GLOBAL		"Global"					// Wisecrack global event emitter
+#macro WX_GLOBAL		"Global"					// Wisecrack global event emitter "id"
 #macro WX_LISTENERS		global.__wxEventListeners	// Wisecrack event listeners
 #macro WX_SCHEDULER		global.__wxScheduler		// Wisecrack parent scheduler
 #macro WX_TIME			global.__wxCurrentTime		// Wisecrack current_time
@@ -9,7 +9,7 @@
 // Other initializations
 __wxInit();		
 
-// Global events
+// Global events (if you rename these, make sure to rename them in __wxGlobal per event)
 WX_LISTENERS = {};
 WX_LISTENERS[$ WX_GLOBAL] = {
 	

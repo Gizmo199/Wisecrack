@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "__wxEventFire",
+  "name": "wx_generate",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Event Handling",
-    "path": "folders/Wisecrack/Core/Private/Event Handling.yy",
+    "name": "Static",
+    "path": "folders/Wisecrack/Operators/Static.yy",
   },
 }
