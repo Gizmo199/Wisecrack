@@ -1,7 +1,7 @@
 ![LOGO](https://user-images.githubusercontent.com/25496262/214130065-2415c270-90f6-4bb5-95c4-3b8eee20a5d6.png)
 
 ## About
-Inspired by reactive libraries such as [RxJS](https://github.com/ReactiveX/rxjs) and [Angular](https://github.com/angular), Wisecrack is a powerful library of functions and operators aimed to help make your life easier when dealing with asyncrenous and general data management.
+Inspired by reactive libraries such as [RxJS](https://github.com/ReactiveX/rxjs) and [Angular](https://github.com/angular), Wisecrack is a powerful library of functions and operators aimed to help make your life easier when dealing with asynchronous and general data management.
 
 ## Features
 - Configurations for schedulers (timesources), global event names, and verbose
