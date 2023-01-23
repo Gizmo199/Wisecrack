@@ -10,11 +10,15 @@ function wx_interval(time, func=function(){}, scheduler=WX_SCHEDULER){
 	function(_observer){
 		observer = _observer;
 		
-		timer = new __wxAlarm(time, true, function(){ 
+		timer = new __wxAlarm(time, true, method({
+			observer: observer, 
+			func	: func,
+			count	: count
+		}, function(){ 
 			func();
 			observer.next(count++); 
-		},	scheduler);
-		
+		}),	scheduler);
+		count++;
 		return function(){ timer.destroy(); }
 	}), "wx_interval");
 }	

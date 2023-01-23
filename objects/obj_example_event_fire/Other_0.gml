@@ -1,0 +1,1 @@
+wx_event_fire("outside-room");

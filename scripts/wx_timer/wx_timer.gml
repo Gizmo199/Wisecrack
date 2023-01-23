@@ -9,10 +9,14 @@ function wx_timer(time, func=function(){}, scheduler=WX_SCHEDULER){
 	function(_observer){
 		observer = _observer;
 		
-		timer = new __wxAlarm(time, false, function(){ 
+		timer = new __wxAlarm(time, false, method({
+			observer: observer, 
+			func: func, 
+			time: time
+			}, function(){ 
 			func();
 			observer.next(time); 
-		},	scheduler);
+		}),	scheduler);
 		
 		return function(){ timer.destroy(); }
 	}), "wx_timer");

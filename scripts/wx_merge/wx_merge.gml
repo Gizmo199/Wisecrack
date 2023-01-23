@@ -16,16 +16,17 @@ function wx_merge(){
 		var i = 0;
 		repeat(array_length(args)){
 			
+			var this = self;
 			args[i].subscribe(__wxObserver(
 				
-				function(_val){observer.next(_val);},
-				function(_err){observer.error(_val);},
-				function(){
-					done++;
-					if ( done == size ){
+				method({observer: observer}, function(_val){observer.next(_val);}),
+				method({observer: observer}, function(_err){observer.error(_val);}),
+				method({observer: observer, this: this}, function(){
+					this.done++;
+					if ( this.done == this.size ){
 						observer.complete();	
 					}
-				}
+				})
 				
 			));
 			
