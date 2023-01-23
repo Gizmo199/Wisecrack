@@ -13,32 +13,32 @@ Inspired by reactive libraries such as [RxJS](https://github.com/ReactiveX/rxjs)
 Operators in Wisecrack follow the same naming conventions of standard reactive libraries, with `wx_*` added before each operator. You can enable short hands in the `__wxStenograph` script which allows for CamelCased shorthand operator names. 
 
 - Static operators (more to come)
-  - of
-  - from
-  - generate
-  - timer
-  - interval
-  - merge
-  - fromEvent
+  - [of](https://rxjs.dev/api/index/function/of)
+  - [from](https://rxjs.dev/api/index/function/from)
+  - [generate](https://rxjs.dev/api/index/function/generate)
+  - [timer](https://rxjs.dev/api/index/function/timer)
+  - [interval](https://rxjs.dev/api/index/function/interval)
+  - [merge](https://rxjs.dev/api/index/function/merge)
+  - [fromEvent](https://rxjs.dev/api/index/function/fromEvent)
   
 - Pipeable operators (more to come)
-  - tap
-  - map
-  - first
-  - last
-  - take
-  - pluck
-  - filter
-  - scan
-  - reduce
-  - delay
-  - throttle
-  - debounce
-  - switchmap
-  - mergemap
-  - concatmap
-  - takeuntil
-  - takewhile
+  - [tap](https://rxjs.dev/api/operators/tap)
+  - [map](https://rxjs.dev/api/operators/map)
+  - [first](https://rxjs.dev/api/operators/first)
+  - [last](https://rxjs.dev/api/operators/last)
+  - [take](https://rxjs.dev/api/operators/take)
+  - [pluck](https://rxjs.dev/api/operators/pluck)
+  - [filter](https://rxjs.dev/api/operators/filter)
+  - [scan](https://rxjs.dev/api/operators/scan)
+  - [reduce](https://rxjs.dev/api/operators/reduce)
+  - [delay](https://rxjs.dev/api/operators/delay)
+  - [throttle](https://rxjs.dev/api/operators/throttle)
+  - [debounce](https://rxjs.dev/api/operators/debounce)
+  - [switchmap](https://rxjs.dev/api/operators/switchMap)
+  - [mergemap](https://rxjs.dev/api/operators/mergeMap)
+  - [concatmap](https://rxjs.dev/api/operators/concatMap)
+  - [takeuntil](https://rxjs.dev/api/operators/takeUntil)
+  - [takewhile](https://rxjs.dev/api/operators/takeWhile)
 
 ## Debugging
 You can implement debug logs for observable streams using `.trace(OPTIONAL NAME)` after **static operators**, **observables**, or **subjects** like so:
