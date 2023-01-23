@@ -12,9 +12,9 @@
 	27
 	Done!
 	
-	In this example, No matter what order you put the '120, 60'
-	values this operator simply merges the observables and will 
-	always produce the 'shorter' timer first.
+	This will switch the observables from 1 static operator 
+	to a new static operator. 
+	
 */
 
 // What our observer should to during the Next, Error, and Complete calls.
