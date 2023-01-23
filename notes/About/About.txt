@@ -1,0 +1,23 @@
+Wisecrack by Gizmo199
+verions 1.0.0
+
+Requirements:
+IDE		- v2022.9.0.49+
+Runtime - v2022.9.1.66+
+
+Summary:
+This is a powerful reactive programming library for Gamemaker inspired by RxJS and AngularJS
+style reactive libraries.
+
+Note:
+The documentation links provided in the scripts are based on RxJS 7. These could
+be out of date with later verisons of RxJS. Documentation for this 
+system specifically will be available when I can get around to it. :)
+
+Sources:
+Reactive X														https://reactivex.io/
+Reactive Extensions												https://rxjs.dev/
+Andrea Bertoli "RxJS from Scratch"								https://dev.to/mr_bertoli/rxjs-from-scratch-observables-hl6		
+Kwinten Pisman "Build the operators 
+				from RxJS from scatch"							https://blog.strongbrew.io/build-the-operators-from-rxjs-from-scratch/?lectureId=intro#app
+AngularNYC - Ben Lesh "Creating an observable from scratch" 	https://www.youtube.com/watch?v=m40cF91F8_A
