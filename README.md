@@ -41,7 +41,7 @@ Operators in Wisecrack follow the same naming conventions of standard reactive l
   - takewhile
 
 ## Debugging
-You can implement debug logs for observable streams using `.trace(OPTIONAL NAME)` after a **static operator**, **observables**, or **subjects** like so:
+You can implement debug logs for observable streams using `.trace(OPTIONAL NAME)` after **static operators**, **observables**, or **subjects** like so:
 
 **obj_trace_example > Create event**
 ```
