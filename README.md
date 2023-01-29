@@ -44,14 +44,14 @@ Operators in Wisecrack follow the same naming conventions of standard reactive l
   - [takewhile](https://rxjs.dev/api/operators/takeWhile)
 
 ## Event data
-###### Global 
+### Global 
 Global events can return either `undefined` or some sort of data. These events include:
 - keypress
 - async_* 
 
 async events will return a struct populated with key/value pairs taken from `async_load`, so you can simply just call `data.buffer` for instance instead of `async_load[? "buffer"]` to get the buffer data. Keypress will return `keyboard_key`. 
 
-###### Local
+### Local
 Local events called from `wx_event_fire` will always return the object_index of the object that fired it. 
 
 ## Debugging
