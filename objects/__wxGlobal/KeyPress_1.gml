@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].keypress.call();
+WX_LISTENERS[$ WX_GLOBAL].keypress.call(keyboard_key);

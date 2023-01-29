@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_steam.call();
+WX_LISTENERS[$ WX_GLOBAL].async_steam.call(__wxMapToStruct(async_load));

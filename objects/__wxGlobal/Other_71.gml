@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_notification.call();
+WX_LISTENERS[$ WX_GLOBAL].async_notification.call(__wxMapToStruct(async_load));

@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].mouse_press.call();
+WX_LISTENERS[$ WX_GLOBAL].mouse_press.call(mb_right);

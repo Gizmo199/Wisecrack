@@ -14,12 +14,13 @@ function __wxEventCaller() constructor {
 			i++;
 		}
 	}
-	static call = function(){
+	static call = function(arg = undefined){
 		if ( array_length(callstack) == 0 ) return;
 		var i = 0;
 		repeat(array_length(callstack)){
 			var fn = callstack[i];
-			fn();
+			if ( arg == undefined ) fn();
+			else fn(arg);
 			i++;
 		}
 	}

@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_save_load.call();
+WX_LISTENERS[$ WX_GLOBAL].async_save_load.call(__wxMapToStruct(async_load));

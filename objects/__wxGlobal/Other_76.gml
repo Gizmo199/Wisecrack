@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].broadcast.call();
+WX_LISTENERS[$ WX_GLOBAL].broadcast.call(__wxMapToStruct(event_data));

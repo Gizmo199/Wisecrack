@@ -13,7 +13,7 @@ function wx_fromevent(ev_object, ev_name, scheduler=WX_SCHEDULER){
 			observer : observer, 
 			object: object
 			
-			}, function(){observer.next(is_string(object) ? undefined : object);})
+			}, function(data = undefined){observer.next(data);})
 		event.add(callfunc)
 		
 		return function(){ event.remove(callfunc); }

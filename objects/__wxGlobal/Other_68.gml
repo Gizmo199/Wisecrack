@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_networking.call();
+WX_LISTENERS[$ WX_GLOBAL].async_networking.call(__wxMapToStruct(async_load));

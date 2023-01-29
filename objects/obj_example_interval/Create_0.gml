@@ -7,9 +7,7 @@
 	4
 	5
 	...
-	
-	and will only end when pressing the ESC key
-	
+		
 	**NOTE**
 	Intervals must be completed to stop. This includes functions
 	like "wx_take" or "wx_takewhile" or ".unsubscribe()"

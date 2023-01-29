@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_dialog.call();
+WX_LISTENERS[$ WX_GLOBAL].async_dialog.call(__wxMapToStruct(async_load));

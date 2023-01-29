@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_cloud.call();
+WX_LISTENERS[$ WX_GLOBAL].async_cloud.call(__wxMapToStruct(async_load));

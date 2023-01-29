@@ -6,9 +6,6 @@
 #macro WX_PERIOD		1							// How often we update scehdulers in Wisecrack
 #macro WX_VERBOSE		true						// Enables debug messages for the static operators ".trace()" method
 
-// Other initializations
-__wxInit();		
-
 // Global events (if you rename these, make sure to rename them in __wxGlobal per event)
 WX_LISTENERS = {};
 WX_LISTENERS[$ WX_GLOBAL] = {

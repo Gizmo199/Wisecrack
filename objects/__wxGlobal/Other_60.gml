@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_image_load.call();
+WX_LISTENERS[$ WX_GLOBAL].async_image_load.call(__wxMapToStruct(async_load));

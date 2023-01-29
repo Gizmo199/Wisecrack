@@ -1,1 +1,1 @@
-WX_LISTENERS[$ WX_GLOBAL].async_audio_record.call();
+WX_LISTENERS[$ WX_GLOBAL].async_audio_record.call(__wxMapToStruct(async_load));
