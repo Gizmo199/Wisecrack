@@ -22,7 +22,6 @@ wx_fromevent(WX_GLOBAL, "mouse_press").pipe(
 
 // End game
 wx_fromevent(WX_GLOBAL, "keypress").pipe(
-
 	wx_filter(function(){
 		return ( keyboard_key == vk_escape );	
 	})

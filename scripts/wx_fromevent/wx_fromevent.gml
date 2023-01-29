@@ -10,10 +10,12 @@ function wx_fromevent(ev_object, ev_name, scheduler=WX_SCHEDULER){
 		observer = _observer;
 		callfunc = method({
 			
-			observer : observer, 
-			object: object
+			observer	: observer, 
+			object		: is_string(object) ? undefined : object
 			
-			}, function(data = undefined){observer.next(data);})
+			}, function(data = undefined){
+				observer.next(data == undefined ? object : data);
+			})
 		event.add(callfunc)
 		
 		return function(){ event.remove(callfunc); }
