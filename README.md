@@ -3,6 +3,9 @@
 ## About
 Inspired by reactive libraries such as [RxJS](https://github.com/ReactiveX/rxjs) and [Angular](https://github.com/angular), Wisecrack is a powerful library of functions and operators aimed to help make your life easier when dealing with asynchronous and general data management.
 
+## Getting started
+All you need to call is `wx_init()` somewhere in the begining of your game to get the system running. Without running this code, some functionalities will still work perfectly fine, but some will not such as `wx_interval()` and calling global events from `WX_GLOBAL`. 
+
 ## Features
 - Configurations for schedulers (timesources), global event names, and verbose
 - Event handlers and event firing (including a global event handler `WX_GLOBAL`)
@@ -39,6 +42,17 @@ Operators in Wisecrack follow the same naming conventions of standard reactive l
   - [concatmap](https://rxjs.dev/api/operators/concatMap)
   - [takeuntil](https://rxjs.dev/api/operators/takeUntil)
   - [takewhile](https://rxjs.dev/api/operators/takeWhile)
+
+## Event data
+###### Global 
+Global events can return either `undefined` or some sort of data. These events include:
+- keypress
+- async_* 
+
+async events will return a struct populated with key/value pairs taken from `async_load`, so you can simply just call `data.buffer` for instance instead of `async_load[? "buffer"]` to get the buffer data. Keypress will return `keyboard_key`. 
+
+###### Local
+Local events called from `wx_event_fire` will always return the object_index of the object that fired it. 
 
 ## Debugging
 You can implement debug logs for observable streams using `.trace(OPTIONAL NAME)` after **static operators**, **observables**, or **subjects** like so:
